@@ -1,0 +1,18 @@
+.heading { 
+    color:darkblue;
+    background-color:antiquewhite;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-section {
+    color:darkblue;
+    background-color:beige;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+    color: darkblue;
+    background-color:beige;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
