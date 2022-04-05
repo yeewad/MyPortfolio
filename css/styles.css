@@ -1,4 +1,7 @@
-.heading { 
+.clearfix::after { 
+    content: "";
+    clear: both;
+    display: table;
     color:darkblue;
     background-color:antiquewhite;
     text-align: center;
