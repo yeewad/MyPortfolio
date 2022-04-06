@@ -1,21 +1,42 @@
-.clearfix::after { 
+body {
+    color: darkolivegreen;
+    font-family: arial;
+    background-color: blanchedalmond;
+    margin-left: 25px;
+  }
+  div.picture img {
+      border: darkgoldenrod;
+      border-width: 5px;
+      border-style: double;
+  }
+
+  h2 {
+    color: darkgoldenrod;
+    font-style: italic;
+  }
+  h3 {
+      border-top: 25px
+  }
+  div.footer {
+    background-color: burlywood;
+    margin-left: -25px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+  }
+  div.footer div.contact {
+      margin-left: 25px;
+      margin-top: 25px;
+      font-size: smaller;
+      line-height: 5px;
+  }
+  .column {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
     content: "";
-    clear: both;
     display: table;
-    color:darkblue;
-    background-color:antiquewhite;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.main-section {
-    color:darkblue;
-    background-color:beige;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.footer {
-    color: darkblue;
-    background-color:beige;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    clear: both;
+  }
